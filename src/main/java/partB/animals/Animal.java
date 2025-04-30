@@ -4,6 +4,7 @@ import partB.food.Food;
 
 public class Animal {
     String speak() {
+
         return null;
     }
 
