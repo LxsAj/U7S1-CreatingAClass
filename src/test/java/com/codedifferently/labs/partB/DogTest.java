@@ -12,7 +12,7 @@ public class DogTest {
     public void setName(){
        String name = "Reacher";
        Date birthdate = new Date();
-       Integer id = 2;
+       Integer id = 1;
        Dog dawg = new Dog(name,birthdate,id);
 
        dawg.setName("Reacher");
@@ -24,7 +24,7 @@ public class DogTest {
    public void setBirthDate(){
       String name = "";
       Date birthdate = new Date();
-      Integer id = 2;
+      Integer id = 1;
       Dog dawg = new Dog(name,birthdate,id);
 
       dawg.setBirthDate(birthdate);
@@ -36,7 +36,7 @@ public class DogTest {
    public void getId(){
       String name = "";
       Date birthdate = new Date();
-      Integer id = 2;
+      Integer id = 1;
       Dog dawg = new Dog(name,birthdate,id);
       int retrievedID = dawg.getId();
       Assertions.assertEquals(id,retrievedID);
@@ -47,7 +47,7 @@ public class DogTest {
    public void  speak(){
       String name = "";
       Date birthdate = new Date();
-      Integer id = 2;
+      Integer id = 1;
       Dog dawg = new Dog(name,birthdate,id);
 
       String speak = dawg.speak();
@@ -59,7 +59,7 @@ public class DogTest {
    public void eat(){
       String name = "";
       Date birthdate = new Date();
-      Integer id = 2;
+      Integer id = 1;
       Dog dawg = new Dog(name,birthdate,id);
 
       Food food = new Food();
@@ -72,7 +72,7 @@ public class DogTest {
    public void animalANDmammal(){
       String name = "";
       Date birthdate = new Date();
-      Integer id = 2;
+      Integer id = 1;
       Dog dawg = new Dog(name,birthdate,id);
 
       System.out.println( "Dog is an instance of animal? "  + true);
